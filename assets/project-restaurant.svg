@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="restaurantTitle restaurantDesc">
+  <title id="restaurantTitle">Restaurant reservation illustration</title>
+  <desc id="restaurantDesc">Table booking dashboard illustration for a restaurant reservation app.</desc>
+  <defs>
+    <linearGradient id="rbg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#7c2d12"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="40" fill="url(#rbg)"/>
+  <rect x="84" y="88" width="632" height="330" rx="28" fill="#111827" stroke="#374151" stroke-width="2"/>
+  <rect x="126" y="126" width="236" height="238" rx="22" fill="#1f2937"/>
+  <circle cx="244" cy="220" r="74" fill="#fb923c"/>
+  <circle cx="244" cy="220" r="40" fill="#fdba74"/>
+  <rect x="228" y="294" width="32" height="48" rx="16" fill="#fed7aa"/>
+  <rect x="412" y="132" width="256" height="30" rx="15" fill="#374151"/>
+  <rect x="412" y="184" width="220" height="72" rx="22" fill="#ea580c"/>
+  <rect x="442" y="206" width="88" height="16" rx="8" fill="#fff7ed"/>
+  <rect x="412" y="284" width="256" height="18" rx="9" fill="#374151"/>
+  <rect x="412" y="318" width="196" height="18" rx="9" fill="#374151"/>
+  <rect x="412" y="352" width="144" height="18" rx="9" fill="#374151"/>
+  <path d="M206 146v-28M244 146v-34M282 146v-28" stroke="#fff7ed" stroke-width="10" stroke-linecap="round"/>
+</svg>

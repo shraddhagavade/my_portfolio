@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="paymentTitle paymentDesc">
+  <title id="paymentTitle">Payment platform illustration</title>
+  <desc id="paymentDesc">Abstract card and payment dashboard illustration for a payment integration project.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#08111f"/>
+      <stop offset="100%" stop-color="#0f5132"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" x2="1">
+      <stop offset="0%" stop-color="#22c55e"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="40" fill="url(#bg)"/>
+  <circle cx="110" cy="96" r="70" fill="#12d640" opacity=".12"/>
+  <circle cx="690" cy="82" r="90" fill="#38bdf8" opacity=".12"/>
+  <rect x="74" y="90" width="652" height="320" rx="28" fill="#0b1728" stroke="#35506c" stroke-width="2"/>
+  <rect x="118" y="138" width="290" height="176" rx="24" fill="url(#card)"/>
+  <circle cx="167" cy="191" r="24" fill="#dcfce7" opacity=".7"/>
+  <rect x="208" y="172" width="128" height="16" rx="8" fill="#ecfeff" opacity=".82"/>
+  <rect x="208" y="202" width="88" height="16" rx="8" fill="#d1fae5" opacity=".85"/>
+  <rect x="144" y="266" width="238" height="18" rx="9" fill="#052e16" opacity=".46"/>
+  <rect x="452" y="138" width="222" height="26" rx="13" fill="#183047"/>
+  <rect x="452" y="190" width="180" height="18" rx="9" fill="#1e293b"/>
+  <rect x="452" y="224" width="200" height="18" rx="9" fill="#1e293b"/>
+  <rect x="452" y="258" width="160" height="18" rx="9" fill="#1e293b"/>
+  <rect x="452" y="310" width="146" height="50" rx="18" fill="#12d640"/>
+  <path d="M506 336h40" stroke="#052e16" stroke-width="10" stroke-linecap="round"/>
+</svg>

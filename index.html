@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shraddha Gavade | Portfolio</title>
+  <meta name="description" content="Shraddha Gavade portfolio built from resume, GitHub, and LinkedIn details.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&family=Raleway:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <canvas id="particle-canvas" aria-hidden="true"></canvas>
+
+  <header class="hero" id="home">
+    <nav class="nav">
+      <a class="brand" href="#home">Shraddha Gavade</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="assets/Gavade-Shraddha-Resume.pdf" target="_blank" rel="noreferrer">Resume</a></li>
+        <li><a href="#achievements">Achievement</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">Personal Portfolio</p>
+        <h1>Shraddha Gavade</h1>
+        <h2>I'm <span id="typing-text"></span></h2>
+        <p class="hero-summary">
+          Adaptable Full Stack Developer with strong knowledge of modern web technologies,
+          data structures, cloud platforms, and scalable backend systems.
+        </p>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/shraddha-gavade-b7859b2b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://github.com/shraddhagavade" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="mailto:shraddhagavade920@gmail.com">Email</a>
+          <a href="https://www.hackerrank.com/profile/shraddhagavade81" target="_blank" rel="noreferrer">HackerRank</a>
+        </div>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="assets/Gavade-Shraddha-Resume.pdf" target="_blank" rel="noreferrer">View Resume</a>
+          <a class="btn btn-secondary" href="#about">Explore Portfolio</a>
+        </div>
+      </div>
+
+      <div class="hero-photo-wrap">
+        <div class="hero-photo-card hero-photo-card--compact">
+          <img src="assets/shraddhaPhoto.png" alt="Portrait of Shraddha Gavade">
+        </div>
+      </div>
+    </div>
+
+    <a class="scroll-cue" href="#about" aria-label="Scroll to about section">&darr;</a>
+  </header>
+
+  <main>
+    <section class="section about" id="about">
+      <div class="section-title">
+        <h2>About</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-photo">
+          <img src="assets/shraddhaPhoto.png" alt="Shraddha Gavade profile photo">
+        </div>
+
+        <div class="about-content">
+          <p>
+            I build responsive user interfaces, secure backend systems, and production-minded web
+            experiences. My work blends Java, Spring Boot, React, Node.js, cloud tooling, and API
+            design to solve real business problems with clean engineering habits.
+          </p>
+          <p>
+            Across my resume, GitHub, and LinkedIn presence, the strongest pattern is clear:
+            I enjoy turning practical product ideas into reliable applications, especially in
+            payment systems, booking workflows, and full-stack business platforms.
+          </p>
+
+          <div class="detail-grid">
+            <div><strong>Phone:</strong> +91 6364549367</div>
+            <div><strong>Email:</strong> shraddhagavade920@gmail.com</div>
+            <div><strong>Location:</strong> Karnataka, India</div>
+            <div><strong>GitHub Bio:</strong> Java Developer</div>
+          </div>
+
+          <div class="stats-grid">
+            <article>
+              <span>9</span>
+              <p>Public GitHub repositories</p>
+            </article>
+            <article>
+              <span>3</span>
+              <p>Industry roles across internship and trainee work</p>
+            </article>
+            <article>
+              <span>8.3</span>
+              <p>CGPA in Computer Science Engineering</p>
+            </article>
+            <article>
+              <span>15+</span>
+              <p>Reusable React components built in internship work</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="section-title">
+        <h2>Education</h2>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item">
+          <span class="timeline-date">2021 - 2025</span>
+          <div class="timeline-card">
+            <h3>Bachelor of Computer Science Engineering</h3>
+            <p>A G M Rural College of Engineering and Technology, Varur, Hubli</p>
+            <p>CGPA: 8.3</p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <span class="timeline-date">2020 - 2021</span>
+          <div class="timeline-card">
+            <h3>Pre-University College (PUC)</h3>
+            <p>Jnana Pragati PU College, Pattankudi, Chikodi</p>
+            <p>Percentage: 92.5%</p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <span class="timeline-date">2018 - 2019</span>
+          <div class="timeline-card">
+            <h3>Secondary School Leaving Certificate (SSLC)</h3>
+            <p>A S Patil High School, Stavanidhi, Nipani</p>
+            <p>Percentage: 94.24%</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="section-title">
+        <h2>Experience</h2>
+      </div>
+
+      <div class="experience-list">
+        <article class="panel">
+          <h3>Hulk Hire Tech</h3>
+          <p class="role">Java Developer Trainee | Remote</p>
+          <p class="date">Feb 2026 - Present</p>
+          <ul>
+            <li>Developed a Spring Boot microservices-based payment system with secure service-to-service communication.</li>
+            <li>Designed 10+ REST APIs for checkout sessions, hosted payments, and transaction processing.</li>
+            <li>Integrated Stripe webhooks for real-time payment updates and validated workflows with Postman.</li>
+          </ul>
+        </article>
+
+        <article class="panel">
+          <h3>IndiyaSe</h3>
+          <p class="role">Software Developer Intern | On-Site</p>
+          <p class="date">Jan 2025 - Apr 2025</p>
+          <ul>
+            <li>Built 15+ reusable React.js components with better state and lifecycle handling.</li>
+            <li>Designed 10+ RESTful APIs using Node.js and Express.js.</li>
+            <li>Improved backend logic and query performance, reducing response time by 20-30%.</li>
+            <li>Worked in a 5-member agile team to deliver features through iterative development.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-title">
+        <h2>Projects</h2>
+      </div>
+
+      <div class="project-filters" role="tablist" aria-label="Project filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="fullstack">Web-App</button>
+        <button class="filter-btn" data-filter="backend">Project</button>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card" data-category="fullstack">
+          <div class="project-visual">
+            <img src="assets/project-freelancer.svg" alt="Freelancer marketplace project illustration">
+          </div>
+          <div class="project-body">
+            <h3>Freelancer Marketplace App</h3>
+            <p>
+              A freelancer marketplace experience focused on connecting clients and talent through
+              a polished web interface and marketplace-style product flow.
+            </p>
+            <p class="tech">Frontend Web App, Marketplace UI, Product Flow, Deployment on Vercel</p>
+            <div class="project-links">
+              <a href="https://freelancer-marketplace-app.vercel.app/" target="_blank" rel="noreferrer">Live Demo</a>
+              <button type="button" class="project-detail-btn" data-project="freelancer">View Details</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="backend">
+          <div class="project-visual">
+            <img src="assets/project-wallet.svg" alt="Wallet service project illustration">
+          </div>
+          <div class="project-body">
+            <h3>Wallet Service</h3>
+            <p>
+              Spring Boot wallet backend with deposit and withdraw APIs, PostgreSQL persistence,
+              Liquibase migrations, Docker Compose setup, and concurrency-safe balance updates.
+            </p>
+            <p class="tech">Java, Spring Boot 3, PostgreSQL, Liquibase, Docker Compose, Integration Tests</p>
+            <div class="project-links">
+              <a href="https://github.com/shraddhagavade/wallet-service" target="_blank" rel="noreferrer">GitHub</a>
+              <button type="button" class="project-detail-btn" data-project="wallet-service">View Details</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="backend">
+          <div class="project-visual">
+            <img src="assets/project-payment.svg" alt="Payment platform project illustration">
+          </div>
+          <div class="project-body">
+            <h3>Stripe Payment Integration System</h3>
+            <p>
+              Work-in-progress Spring Boot microservices payment workflow with checkout sessions,
+              hosted payments, webhook-driven updates, and production-focused backend structure.
+            </p>
+            <p class="tech">Java, Spring Boot, Microservices, Maven, Stripe API, REST APIs</p>
+            <div class="project-links">
+              <button type="button" class="project-detail-btn" data-project="stripe-payment">View Details</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="fullstack">
+          <div class="project-visual">
+            <img src="assets/project-restaurant.svg" alt="Restaurant reservation project illustration">
+          </div>
+          <div class="project-body">
+            <h3>MERN Restaurant Reservation App</h3>
+            <p>
+              Full-stack reservation system for online table booking with real-time confirmation,
+              scalable deployment, and REST API communication.
+            </p>
+            <p class="tech">React.js, Node.js, Express.js, MongoDB, Vercel, Render</p>
+            <div class="project-links">
+              <a href="https://github.com/shraddhagavade/restaurant-reservation-mern.git" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="https://restaurant-reservation-mern-jade.vercel.app" target="_blank" rel="noreferrer">Live Demo</a>
+              <button type="button" class="project-detail-btn" data-project="restaurant">View Details</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="backend">
+          <div class="project-visual">
+            <img src="assets/project-plant.svg" alt="Plant disease detection project illustration">
+          </div>
+          <div class="project-body">
+            <h3>Plant Disease Detection</h3>
+            <p>
+              GitHub-hosted project focused on plant disease detection workflows, reflecting interest
+              in AI-assisted practical problem solving.
+            </p>
+            <p class="tech">Machine Learning, Computer Vision, Python, GitHub</p>
+            <div class="project-links">
+              <a href="https://github.com/shraddhagavade/plant-Disease-Detection.git" target="_blank" rel="noreferrer">GitHub</a>
+              <button type="button" class="project-detail-btn" data-project="plant">View Details</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="fullstack">
+          <div class="project-visual">
+            <img src="assets/project-ecommerce.svg" alt="E-commerce platform project illustration">
+          </div>
+          <div class="project-body">
+            <h3>E-Commerce Platform</h3>
+            <p>
+              GitHub project that extends full-stack development practice into commerce flows,
+              user interactions, and front-to-back product experiences.
+            </p>
+            <p class="tech">JavaScript, Frontend Development, Backend Integration, Git</p>
+            <div class="project-links">
+              <a href="https://github.com/shraddhagavade/eCommerce.git" target="_blank" rel="noreferrer">GitHub</a>
+              <button type="button" class="project-detail-btn" data-project="ecommerce">View Details</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="fullstack">
+          <div class="project-visual">
+            <img src="assets/project-portfolio.svg" alt="Portfolio design project illustration">
+          </div>
+          <div class="project-body">
+            <h3>Portfolio Builds</h3>
+            <p>
+              GitHub repositories including <strong>my_portfolio</strong> and <strong>portfolioo</strong>
+              show ongoing experimentation with personal branding, front-end presentation, and deployment.
+            </p>
+            <p class="tech">HTML, TypeScript, UI Design, GitHub profile projects</p>
+            <div class="project-links">
+              <a href="https://github.com/shraddhagavade" target="_blank" rel="noreferrer">View Profile</a>
+              <button type="button" class="project-detail-btn" data-project="portfolio">View Details</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-title">
+        <h2>Skills &amp; Abilities</h2>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java logo"><span>Java</span></article>
+        <article class="skill-chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript logo"><span>JavaScript</span></article>
+        <article class="skill-chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5 logo"><span>HTML</span></article>
+        <article class="skill-chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3 logo"><span>CSS</span></article>
+        <article class="skill-chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React logo"><span>React.js</span></article>
+        <article class="skill-chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js logo"><span>Node.js</span></article>
+        <article class="skill-chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express logo"><span>Express.js</span></article>
+        <article class="skill-chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Boot logo"><span>Spring Boot</span></article>
+        <article class="skill-chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB logo"><span>MongoDB</span></article>
+        <article class="skill-chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL logo"><span>MySQL</span></article>
+        <article class="skill-chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git logo"><span>Git</span></article>
+        <article class="skill-chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maven/maven-original.svg" alt="Maven logo"><span>Maven</span></article>
+        <article class="skill-chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker logo"><span>Docker</span></article>
+        <article class="skill-chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" alt="Jenkins logo"><span>Jenkins</span></article>
+        <article class="skill-chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg" alt="CI CD logo"><span>CI/CD</span></article>
+        <article class="skill-chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS logo"><span>AWS</span></article>
+        <article class="skill-chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Azure logo"><span>Azure</span></article>
+        <article class="skill-chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="EC2 logo"><span>EC2</span></article>
+        <article class="skill-chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" alt="REST API icon"><span>REST APIs</span></article>
+        <article class="skill-chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeforces/codeforces-plain.svg" alt="DSA icon"><span>DSA</span></article>
+        <article class="skill-chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="OOP icon"><span>OOP</span></article>
+        <article class="skill-chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" alt="Infrastructure as Code logo"><span>Infrastructure as Code</span></article>
+        <article class="skill-chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Cloud and DevOps logo"><span>Cloud &amp; DevOps</span></article>
+        <article class="skill-chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" alt="Jira logo"><span>Jira</span></article>
+        <article class="skill-chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" alt="Postman logo"><span>Postman</span></article>
+      </div>
+    </section>
+
+    <section class="section" id="achievements">
+      <div class="section-title">
+        <h2>Achievements &amp; Certificates</h2>
+      </div>
+
+      <div class="achievement-highlight panel">
+        <h3>Key Highlights</h3>
+        <ul>
+          <li>Built a Spring Boot payment architecture with microservices, checkout APIs, and Stripe webhook integration.</li>
+          <li>Completed application development training, innovation event participation, and Deloitte technology simulation work.</li>
+          <li>Documented certifications and milestones across resume, LinkedIn activity, and public developer profiles.</li>
+        </ul>
+      </div>
+
+      <div class="certificate-gallery certificate-gallery--wide">
+        <a class="certificate-card" href="https://www.linkedin.com/posts/shraddha-gavade-b7859b2b2_application-development-in-web-and-mobile-activity-7343988540680110080-UDSA?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAEsxhcwBZuk6tFFbdyG0Qmbun6UX-9vSyTU&utm_campaign=copy_link" target="_blank" rel="noreferrer">
+          <img src="assets/certificate-rooman.png" alt="Rooman Technologies application development certificate from LinkedIn post">
+          <span class="certificate-tag">LinkedIn Certificate Post</span>
+          <figcaption>Application Development in Web and Mobile at Rooman Technologies, Bengaluru</figcaption>
+        </a>
+
+        <a class="certificate-card" href="assets/certificate-deloitte.png" target="_blank" rel="noreferrer">
+          <img src="assets/certificate-deloitte.png" alt="Deloitte technology job simulation certificate">
+          <span class="certificate-tag">Certificate Preview</span>
+          <figcaption>Deloitte Technology Job Simulation certificate completed through Forage in August 2025</figcaption>
+        </a>
+
+        <a class="certificate-card" href="https://www.linkedin.com/posts/shraddha-gavade-b7859b2b2_innovation-technology-cmrit-activity-7291017207906463744-FKEw?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAEsxhcwBZuk6tFFbdyG0Qmbun6UX-9vSyTU&utm_campaign=copy_link" target="_blank" rel="noreferrer">
+          <img src="assets/certificate-innovation.jpg" alt="Innovation participation certificate or event image from LinkedIn post">
+          <span class="certificate-tag">LinkedIn Achievement Post</span>
+          <figcaption>Innovation project competition participation featuring the Health Monitoring Jacket project</figcaption>
+        </a>
+      </div>
+
+      <div class="achievement-columns">
+        <div class="panel">
+          <h3>Certificate List</h3>
+          <ul>
+            <li>Java Developer Trainee - Hulk Hire Tech</li>
+            <li>Application Development - Web and Mobile, Rooman Technologies (2024)</li>
+            <li>Deloitte Technology Job Simulation (2025)</li>
+          </ul>
+        </div>
+
+        <div class="panel">
+          <h3>Profile Links</h3>
+          <ul>
+            <li><a href="https://www.linkedin.com/in/shraddha-gavade-b7859b2b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noreferrer">LinkedIn Profile</a></li>
+            <li><a href="https://github.com/shraddhagavade" target="_blank" rel="noreferrer">GitHub Profile</a></li>
+            <li><a href="https://www.hackerrank.com/profile/shraddhagavade81" target="_blank" rel="noreferrer">HackerRank Profile</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="section-title">
+        <h2>Contact Me</h2>
+      </div>
+
+      <div class="contact-card">
+        <div class="contact-info">
+          <h3>Let's Connect!</h3>
+          <p><strong>Address:</strong> Karnataka, India</p>
+          <p><strong>Email:</strong> shraddhagavade920@gmail.com</p>
+          <p><strong>Contact:</strong> +91 6364549367</p>
+          <div class="social-links contact-links">
+            <a href="https://www.linkedin.com/in/shraddha-gavade-b7859b2b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="https://github.com/shraddhagavade" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://www.hackerrank.com/profile/shraddhagavade81" target="_blank" rel="noreferrer">HackerRank</a>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contact-form">
+          <input type="text" name="name" placeholder="YOUR NAME" required>
+          <input type="email" name="email" placeholder="YOUR EMAIL" required>
+          <input type="text" name="subject" placeholder="SUBJECT" required>
+          <textarea name="message" placeholder="MESSAGE" required></textarea>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <dialog class="project-modal" id="project-modal">
+    <div class="project-modal-card">
+      <button type="button" class="project-modal-close" id="project-modal-close" aria-label="Close project details">×</button>
+      <p class="project-modal-tag" id="project-modal-tag"></p>
+      <h3 id="project-modal-title"></h3>
+      <p id="project-modal-description"></p>
+      <div class="project-modal-meta">
+        <div>
+          <strong>Tech Stack</strong>
+          <p id="project-modal-stack"></p>
+        </div>
+        <div>
+          <strong>Highlights</strong>
+          <ul id="project-modal-highlights"></ul>
+        </div>
+      </div>
+      <div class="project-links project-modal-links" id="project-modal-links"></div>
+    </div>
+  </dialog>
+
+  <footer class="footer">
+    <h3>Shraddha Gavade</h3>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/shraddha-gavade-b7859b2b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noreferrer">LinkedIn</a>
+      <a href="https://github.com/shraddhagavade" target="_blank" rel="noreferrer">GitHub</a>
+      <a href="mailto:shraddhagavade920@gmail.com">Email</a>
+    </div>
+    <p>&copy; 2026 Shraddha Gavade. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
