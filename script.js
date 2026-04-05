@@ -1,8 +1,8 @@
 const typingTarget = document.getElementById("typing-text");
 const roles = [
-  "a Java Developer",
+  "a Software Developer",
   "a Full Stack Developer",
-  "a React & Spring Boot Builder",
+  "a Scalable Web Application Builder",
   "a Problem Solver"
 ];
 
