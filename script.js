@@ -38,20 +38,22 @@ typeLoop();
 const filterButtons = document.querySelectorAll(".filter-btn");
 const projectCards = document.querySelectorAll(".project-card");
 const projectDetails = {
-  freelancer: {
-    tag: "Marketplace Project",
-    title: "Freelancer Marketplace App",
+  freelancerhub: {
+    tag: "Full-Stack Marketplace",
+    title: "FreelancerHub Marketplace",
     description:
-      "A marketplace-style web application designed to showcase freelancer discovery, service browsing, and client-talent interaction in a polished product interface.",
+      "A full-stack freelancer marketplace modeled on Upwork/Fiverr, where clients post projects and freelancers submit competing proposals. Accepting a proposal moves the project into progress and auto-rejects the rest, with public profiles for both parties.",
     stack:
-      "Web Frontend, Marketplace UX, Responsive UI, Vercel Deployment",
+      "Java 21, Spring Boot 3.4, Spring Security + JWT, Spring Data JPA/Hibernate, PostgreSQL, React 18, Vite, Tailwind CSS, Swagger/OpenAPI",
     highlights: [
-      "Focused on a real product-style marketplace browsing experience.",
-      "Deployed publicly on Vercel for live access.",
-      "Useful for demonstrating interface design and multi-section application flow."
+      "Stateless JWT auth with BCrypt hashing and role-based access (CLIENT / FREELANCER / ADMIN) enforced at both route and service layers.",
+      "Normalized relational schema with one-to-one, one-to-many, and many-to-many relationships across users, projects, proposals, and profiles.",
+      "~30 documented REST endpoints (Swagger) with centralized exception handling, bean validation, and paginated filtered search.",
+      "Strict layered architecture (Controller → Service → Repository) with a DTO boundary and a React SPA using context-based auth and role-guarded routes."
     ],
     links: [
-      { label: "Live Demo", href: "https://freelancer-marketplace-app.vercel.app/" }
+      { label: "GitHub", href: "https://github.com/shraddhagavade/freelancer-marketplace-app.git" },
+      { label: "Live Demo", href: "https://freelancer-marketplace-app.onrender.com" }
     ]
   },
   "wallet-service": {
